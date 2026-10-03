@@ -11,7 +11,7 @@ Claude（claude.ai 网页、Claude 桌面端、Claude Code）用到的域名分�
 | 官方 | `anthropic.com` `claude.ai` `claude.com` `claudeusercontent.com` | 主站、API、静态资源 |
 | 官方 | `claude.site` | 已发布的 Artifact 页面 |
 | 官方 | `claudemcpcontent.com` `claudemcpclient.com` | 连接器（MCP）应用沙盒 |
-| 监控 | `browser-intake-datadoghq.com` `browser-intake-us5-datadoghq.com` `http-intake.logs.us5.datadoghq.com` `datadoghq-browser-agent.com` | Datadog 前端监控与日志上报 |
+| 监控 | `browser-intake-datadoghq.com` `browser-intake-us5-datadoghq.com` `us5.datadoghq.com` `datadoghq-browser-agent.com` | Datadog 前端监控与日志上报 |
 | 监控 | `growthbook.io` | 功能开关 |
 | 监控 | `o1158394.ingest.us.sentry.io` | Anthropic 的 Sentry 错误上报 |
 | 客服 | `intercom.io` `intercomcdn.com` | 在线客服 |

@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN-SUFFIX,us5.datadoghq.com
 DOMAIN-SUFFIX,datadoghq-browser-agent.com
 DOMAIN-SUFFIX,growthbook.io
 DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io

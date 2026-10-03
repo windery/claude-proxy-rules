@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,claudemcpclient.com
 # Datadog 前端监控（RUM）与日志上报
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN-SUFFIX,us5.datadoghq.com
 DOMAIN-SUFFIX,datadoghq-browser-agent.com
 # GrowthBook 功能开关
 DOMAIN-SUFFIX,growthbook.io
