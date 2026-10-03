@@ -1,0 +1,38 @@
+# Claude 分流规则（唯一数据源，dist/ 下的文件都由 scripts/build.py 从这里生成）
+# 格式：类型,值   不带策略组，策略在使用端指定
+# 核对版本：Claude Desktop 2.19675.0 / Claude Code 2.1.285 / claude.ai 网页版（2026-10-03）
+
+# —— 官方域名 ——
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+# 已发布的 Artifact 页面
+DOMAIN-SUFFIX,claude.site
+# 连接器（MCP）应用沙盒
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+
+# —— 监控与功能开关 ——
+# Datadog 前端监控（RUM）与日志上报
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN-SUFFIX,datadoghq-browser-agent.com
+# GrowthBook 功能开关
+DOMAIN-SUFFIX,growthbook.io
+# Anthropic 的 Sentry 错误上报
+DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io
+
+# —— 在线客服 ——
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# —— 登录/注册人机验证 ——
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,hcaptcha.com
+
+# —— 订阅付款 ——
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com

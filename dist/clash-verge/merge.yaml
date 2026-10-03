@@ -1,0 +1,12 @@
+# 由 scripts/build.py 自动生成，请修改 rules/claude.list 后重新生成
+# 把 PROXY 换成你配置里实际的策略组名，如「🤖 AI」
+rule-providers:
+  claude:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/windery/claude-proxy-rules/main/dist/clash/claude.yaml
+    path: ./ruleset/claude.yaml
+    interval: 86400
+prepend-rules:
+  - RULE-SET,claude,PROXY

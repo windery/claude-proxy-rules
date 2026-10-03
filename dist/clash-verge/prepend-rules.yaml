@@ -1,0 +1,27 @@
+# 由 scripts/build.py 自动生成，请修改 rules/claude.list 后重新生成
+# 把 PROXY 换成你配置里实际的策略组名，如「🤖 AI」
+prepend:
+  - DOMAIN-SUFFIX,anthropic.com,PROXY
+  - DOMAIN-SUFFIX,claude.ai,PROXY
+  - DOMAIN-SUFFIX,claude.com,PROXY
+  - DOMAIN-SUFFIX,claudeusercontent.com,PROXY
+  - DOMAIN-SUFFIX,claude.site,PROXY
+  - DOMAIN-SUFFIX,claudemcpcontent.com,PROXY
+  - DOMAIN-SUFFIX,claudemcpclient.com,PROXY
+  - DOMAIN,browser-intake-datadoghq.com,PROXY
+  - DOMAIN,browser-intake-us5-datadoghq.com,PROXY
+  - DOMAIN,http-intake.logs.us5.datadoghq.com,PROXY
+  - DOMAIN-SUFFIX,datadoghq-browser-agent.com,PROXY
+  - DOMAIN-SUFFIX,growthbook.io,PROXY
+  - DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io,PROXY
+  - DOMAIN-SUFFIX,intercom.io,PROXY
+  - DOMAIN-SUFFIX,intercomcdn.com,PROXY
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+  - DOMAIN-SUFFIX,hcaptcha.com,PROXY
+  - DOMAIN-SUFFIX,stripe.com,PROXY
+  - DOMAIN-SUFFIX,stripe.network,PROXY
+  - DOMAIN-SUFFIX,stripecdn.com,PROXY
+
+append: []
+
+delete: []
